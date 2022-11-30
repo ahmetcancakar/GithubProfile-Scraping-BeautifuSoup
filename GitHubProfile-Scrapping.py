@@ -21,5 +21,3 @@ print("Name of the User: " + profileName.text)
 #Get the followers of the user
 profileFollowers=soup.find("span",{"class":"text-bold color-fg-default"})
 print("Followers: " + profileFollowers.text)
-
-
